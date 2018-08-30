@@ -1,0 +1,57 @@
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:gravity="center"
+	android:id="@+id/tela"
+	tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+	<WebView
+		android:id="@+id/activity_main_webview"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" />
+
+<ProgressBar
+	android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/progressBar"
+            android:layout_centerHorizontal="true"
+	android:layout_centerVertical="true" 
+	android:visibility="invisible"/>
+
+	<ProgressBar 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:id="@+id/progBar"
+		style="?android:attr/progressBarStyleHorizontal"
+		android:indeterminate="false"
+		android:layout_marginTop="-6dp"
+		android:progress="10"
+		android:maxWidth="14.5sp"
+		android:visibility="invisible"/>
+
+	
+
+        />
+
+	<TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Text"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="true"
+        android:text="Aplicativo feito por Milton Massahiro Atarassi\n
+Código disponível em: https://github.com/Milton-Atarassi/area-do-aluno"
+        android:layout_alignWithParentIfMissing="false"
+        android:editable="false"
+		android:visibility="invisible"
+		android:textSize="18dp"
+	/>
+    </RelativeLayout>
+</android.support.v4.widget.SwipeRefreshLayout>

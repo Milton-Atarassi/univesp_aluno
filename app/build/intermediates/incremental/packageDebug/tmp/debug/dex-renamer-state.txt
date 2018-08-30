@@ -1,0 +1,10 @@
+#Sat Aug 25 20:41:57 BRT 2018
+path.2=classes.dex
+path.1=classes.dex
+path.0=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.2=D\:\\aplicativos\\aplicativos\\univesp_aluno\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
+base.1=D\:\\aplicativos\\aplicativos\\univesp_aluno\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\13
+base.0=D\:\\aplicativos\\aplicativos\\univesp_aluno\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11
